@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="utf-8">
+	<title>Makeup</title>
+
+<style>
+	*{ 
+	   margin: 0;
+	   padding: 0;
+	   font-family: Helvetica, NanumBarunGothic, sans-serif;
+
+	}
+
+	.navigation{
+	height: 60px;
+	
+}
+.navigation .logo{
+	
+	margin-left: 100px;
+	line-height: 60px;
+}
+
+.navigation .logoimg{
+	height: px;
+	padding-left: 50px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.menu{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.menu li{
+	float: left;
+	margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.menu a{
+	font-size: 13px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #545454;
+}
+.ver-line{
+    border-left: 5px solid #000000;
+    height: 380px;
+    margin-left: 100px;
+
+    position: relative;
+    bottom: 384px;
+}
+
+.back-img{
+	position: relative;
+	
+}
+
+h1{ 
+	font-size: 52px;
+    color: #000000;
+	margin-left: 50px;
+	text-shadow: 5px 12px 10px rgb(0, 0, 0, 0.6);
+}
+
+.title-1{
+	position: relative;
+	bottom:  300px;
+    left: 100px;
+    font-size: 24px;
+}
+
+.title-2{
+  position: absolute;
+  top:  1200px;
+    left: 100px;
+    font-size: 24px;
+}
+
+
+
+.product-container{
+  position: relative;
+  bottom:  240px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+.product-container2{
+  position: absolute;
+  top:  1300px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+
+
+.product-item{
+  float: left;
+  width: 225px;
+  margin-bottom: 80px;
+  text-decoration: none;
+  color: #000000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.product-item: hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.product-item img{
+  width: 225px;
+  height: 225px;
+}
+.product-item:not(:nth-child(5n)){
+  margin-right: 48px;
+}
+
+.product-item .product-name{
+  margin-top: 10px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.product-item .product-price{
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.clearfix{
+  clear: both;
+}
+.button{
+  position: absolute;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  margin-top: 300px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: auto;
+  border: 2px solid #000000;
+    width: 160px;
+    font-size: 14px;
+    color: #424242; 
+ }
+
+.button img{
+    padding-left: 60px;
+    padding-top: 3px;
+
+}
+
+.button a{
+  text-decoration: none;
+  color: #424242;
+}
+
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+  
+ }
+
+ .pc-logo img{
+	margin-top: 280px;
+	float: right;
+	margin-bottom: -18px;
+	
+}
+
+
+.footer{
+ 
+  height: 320px;
+  width: 100%;
+  float: left;
+  clear: left;
+  background-color: #fcdcd5;
+  }
+
+h3{
+  font-size:26px;
+  color: #e99999;
+  line-height:5px;
+  margin-left: 160px;
+  margin-top: 60px;
+  letter-spacing: 4px;
+}
+  
+h4{
+  font-size: 12px;
+  margin-left: 190px;
+  margin-top: 70px;
+}
+
+h4 p1{
+	font-size: 16px;
+	color: #646464;
+	
+}
+
+h4 p2{
+	font-size: 16px;
+	color: #646464;
+}
+
+h4 p3{
+	font-size: 12px;
+	color: #888888;
+}
+
+h4 a{
+	line-height: 26px;
+	text-decoration: none;
+	color: #888888;
+}
+
+.first{
+	float: left;
+}
+
+.second{
+	float: left;
+	margin-left: 120px;
+}
+
+.third{
+	float: left;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+
+.footer img{ 
+  margin-right: 100px;
+  margin-top: 180px;
+  float: right;
+ }
+
+</style>
+</head>
+
+
+<body>
+	<div class="navigation">
+	   <a href="file:///C:/Users/Yunju/Desktop/14/personal%20color.html#">
+	   <img class="logoimg" src="images/logo2.png"  width="80PX"  alt="logo"></a>
+	     <ul class="menu">
+		   <li><a href="home.html"> Home </a></li>
+		   <li><a href="about.html"> About </a></li>
+           <li><a href="test.html"> Self Test </a></li>
+	     </ul>
+	 </div>
+    </div>
+
+    <div class="back-img"> 
+ 	   <img src="images/h-m.png" width="100%"  height="500px;">
+    </div>
+    
+    <div class=ver-line>
+    	<h1> <b>Makeup</b></h1>
+    </div>
+ 
+    <div class=title-1>
+    	<img src="images/line3.png">
+    	<p1><br><b>Spring Warm</b></p1>
+    </div>
+
+    <div class="product-container">
+      <a class="product-item" href="http://www.clubclio.co.kr/product/product_view.asp?product_cd=P201902131842&_ga=2.98689822.1845636219.1593858740-544978312.1589536899&utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EB%B4%84%EC%9B%9C%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%ED%8E%98%EB%A6%AC%ED%8E%98%EB%9D%BC_%EC%B5%9C%EC%95%A0%EC%81%A8%ED%85%9C">
+        <img src="images/sm1.png" alt="1">
+        <p class="product-name">페리페라 더 에어리 벨벳 08</p>
+        <p class="product-price">7,200</p>
+      </a>
+      <a class="product-item" href="http://www.eglips.com/shop/shopdetail.html?branduid=117383&xcode=011&mcode=001&scode=&type=X&sort=manual&cur_code=011&GfDT=bm18W1s%3D&utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EB%B4%84%EC%9B%9C%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%EC%9D%B4%EA%B8%80%EB%A6%BD%EC%8A%A4_%EC%8A%A4%ED%8A%B8%EB%A1%9C%EB%B2%A0%EB%A6%AC%EC%B9%98%EC%A6%88">
+        <img src="images/sm2.png"alt="2">
+        <p class="product-name">이글립스 벨벳 핏 틴트 10</p>
+        <p class="product-price">8,000</p>
+      </a>
+      <a class="product-item" href="http://www.bbia.co.kr/shop/shopdetail.html?branduid=112196&xcode=007&mcode=001&scode=004&type=X&sort=manual&cur_code=007001&GfDT=aGd3UF4%3D&utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EB%B4%84%EC%9B%9C%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%EC%82%90%EC%95%84_%EC%83%9D%EA%B8%B0%EA%B0%91">
+        <img src="images/sm3.png" alt="3">
+        <p class="product-name">삐아 벨벳 립틴트 02</p>
+        <p class="product-price">9,000</p>
+      </a>
+      <a class="product-item" href="https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000112320&dispCatNo=1000001000200010006&utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EB%B4%84%EC%9B%9C%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%ED%81%AC%EB%A6%AC%EB%8B%88%ED%81%AC_%EB%A9%9C%EB%A1%A0%ED%8C%9D">
+        <img src="images/sm4.png"alt="4">
+        <p class="product-name">크리니크 치크팝 멜론팝</p>
+        <p class="product-price">32,000</p>
+      </a>
+      <a class="product-item" href="https://www.clubclio.co.kr/product/product_view.asp?product_cd=P201902131188&sh_cate1=70000&sh_cate2=71000&sh_cate3=71004&utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EB%B4%84%EC%9B%9C%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%ED%81%B4%EB%A6%AC%EC%98%A4_%EC%BD%94%EB%9E%84%ED%86%A0%ED%81%AC">
+        <img src="images/sm5.png" alt="5">
+        
+        <p class="product-name">클리오 프로 아이 팔레트 03</p>
+        <p class="product-price">22,400</p></a>
+      </a>
+      <div class="clearfix"></div>
+      </div>
+  </div>
+
+   <div class=title-2>
+      <img src="images/line3.png">
+      <p1><br><b>Summer Cool</b></p1>
+    </div>
+
+    <div class="product-container2">
+      <a class="product-item" href="https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000106436&utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EC%97%AC%EB%A6%84%EC%BF%A8%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%EB%A6%B4%EB%A6%AC%EB%B0%94%EC%9D%B4%EB%A0%88%EB%93%9C_%EB%B0%9C%EA%B7%B8%EB%A0%88%ED%95%9C%EB%94%B8%EA%B8%B0%EC%9D%B8%EC%B2%99">
+       
+       <img src="images/cm1.png"alt="1">
+        <p class="product-name">릴리바이레드 코팅 틴트 03</p>
+        <p class="product-price">10,000</p>
+      </a>
+      <a class="product-item" href="https://www.etude.com/kr/ko/main">
+        <img src="images/cm2.png"alt="2">
+        <p class="product-name">에뛰드하우스 핫체리버찌</p>
+        <p class="product-price">9,500</p>
+      </a>
+      <a class="product-item" href="https://www.benefitcosmetics.com/ko-kr/bestsellers#&sku=FM172?utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EC%97%AC%EB%A6%84%EC%BF%A8%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%EB%B2%A0%EB%84%A4%ED%94%BC%ED%8A%B8_%EA%B3%A0%EA%B3%A0%ED%8B%B4%ED%8A%B8">
+        <img src="images/cm3.png" alt="3">
+        <p class="product-name">베네피트 고고틴트</p>
+        <p class="product-price">27,000</p>
+      </a>
+      <a class="product-item" href="https://www.innisfree.com/kr/ko/ProductView.do?prdSeq=14771&catCd01=UN&catCd02=UNMP&tp=1&utm_source=trendis.me&utm_medium=%ED%8C%A8%EC%85%98%EB%B7%B0%ED%8B%B0%EB%A7%A4%EA%B1%B0%EC%A7%84_%ED%8A%B8%EB%A0%8C%EB%94%94%EC%8A%A4&utm_campaign=%EC%97%AC%EB%A6%84%EC%BF%A8%ED%86%A4_%EC%B0%B0%EB%96%A1%ED%85%9C&utm_content=%EC%86%90%EC%98%88%EC%A7%84&utm_term=%EC%9D%B4%EB%8B%88%EC%8A%A4%ED%94%84%EB%A6%AC_%EC%95%84%EA%B8%B0%EC%A7%84%EB%8B%AC%EB%9E%98">
+        <img src="images/cm4.png"alt="4">
+        <p class="product-name">이니스프리 아이섀도우 29</p>
+        <p class="product-price">5,000</p>
+      </a>
+      <a class="product-item" href="https://www.lotteon.com/product/LBPD10021830">
+        <img src="images/cm5.png" alt="5">
+        <p class="product-name">롬앤 배러 댄 치크 03</p>
+        <p class="product-price">8,900</p>
+      </a>
+      <div class="clearfix"></div>
+      </div>
+  </div>
+      <div class="clearfix"></div>
+      </div>
+  </div>
+
+
+
+<div class="button">
+     <a href="makeup2.html"><b>More Item</b> <img src="images/allow.png" width="22px" height="14px"></a>
+      
+    </div>
+
+
+<br><br><br><br>
+<br><br><br><br>
+<div class="pc-logo">
+  	 <img src="images/personalcolor.png">
+  </div>
+
+
+  <div class="footer">
+      <h3>Contact </h3>
+      <div class="footer-img">
+      	<img src="images/logo2.png" width="100px"></div>
+      <h4>
+      	  <div class=first>
+      	    <p1><b>Category</b></p1>
+      		<a href="test.html"><br><br>Self Test</a>
+            <a href="makeup.html"><br>Makeup</a>
+            <a href="clothes.html"><br>Clothes</a>
+            <a href="hair.html"><br>Hair</a>
+          </div>
+          
+          <div class="second">
+           <p2><b>Need Help?</b></p2>
+      		<a href="file:///C:/Users/Yunju/Desktop/14/personal%20color.html"><br><br>Contact us</a>
+            <a href="https://www.facebook.com/profile.php?id=100009419748708"><br>→ Facebook</a>
+            <a href="https://www.instagram.com/y_ellow_64/"><br>→ Instargram</a>
+            
+          </div>
+          
+          <div class=third>
+           <p3>한국산업기술대학교<br>미디어디자인공학과<br>2020194035<br>황윤주
+           <br><br>Address. 경기도 시흥시 산기대학로 237<br>Tel. 010-6496-2001</p3>
+          </div>
+      </h4>
+    </div>
+</body>
+</html>

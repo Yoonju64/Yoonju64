@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="utf-8">
+	<title>What's Your Color?</title>
+
+
+<style>
+	*{ 
+	   margin: 0;
+	   padding: 0;
+	   font-family: Helvetica, NanumBarunGothic, sans-serif;
+
+	}
+
+.navigation{
+	height: 60px;
+	
+}
+.navigation .logo{
+	
+	margin-left: 100px;
+	line-height: 60px;
+}
+
+.navigation .logoimg{
+	height: px;
+	padding-left: 50px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.menu{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.menu li{
+	float: left;
+	margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.menu a{
+	font-size: 13px;
+	margin-top: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #545454;
+
+}
+.back-img{
+
+}
+
+.box{
+  height: 400px;
+  width: 350px;
+ 
+  margin-left: 300px;
+  position: absolute;
+  top: 360px;
+  background-color: rgb(248,170,155,0.8);
+}
+
+.box .title{
+	
+	font-size: 28px;
+	font-weight: bold;
+	color: #545454;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.box .line{
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+.box .sub-title{
+	font-size: 20px;
+	color: #545454;
+	padding-top: 10px;
+    padding-left: 50px;
+}
+
+.button{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	margin-top: 44px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+	border: 2px solid #424242;
+    width: 160px;
+    font-size: 14px;
+    color: #424242; 
+ }
+
+ .button:hover{
+ 	background-color: rgba(0, 0, 0, 0.6);
+ 
+ }
+
+.button img{
+    padding-left: 60px;
+    padding-top: 3px;
+
+}
+
+.button a{
+	text-decoration: none;
+    color: #424242;
+    font-family: Helvetica, sans-serif;
+}
+
+.box-right-text{
+	font-size: 18px;
+	color: #424242;
+	padding-left: 800px;
+	padding-top: 44px;
+	line-height: 24px;
+}
+
+.main-container h2{
+	font-size: 24px;
+	color: #545454;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: 200px;
+	
+}
+
+h2 p{
+	margin-top: 12px;
+	letter-spacing: 4px;
+}
+
+.product-container{
+	
+	margin-left: 200px;
+	margin-right: auto;
+}
+
+.product-item{
+	float: left;
+	text-decoration: none;
+	color: #545454;
+}
+
+.product-item2{
+	float: left;
+	text-decoration: none;
+	color: #545454;
+}
+
+.product-item img{
+	width: 321px;
+	height: 500px;
+	margin-top: 72px;
+	filter: drop-shadow(0px 10px 5px rgb(0, 0, 0, 0.25));
+}
+
+.product-item2 img{
+	width: 321px;
+	height: 500px;
+	margin-top: 200px;
+	filter: drop-shadow(0px 10px 5px rgb(0, 0, 0, 0.25));
+}
+
+.product-item:not(:nth-child(3n)){
+	margin-right: 72px;
+}
+
+.product-item2:not(:nth-child(3n)){
+	margin-right: 72px;
+}
+
+.product-item .product-name{
+	color: #ebebeb;
+	position: relative;
+	bottom: 80px;
+	margin-left: 40px;
+}
+
+.product-item2 .product-name{
+	color: #ebebeb;
+	position: relative;
+	bottom: 80px;
+	margin-left: 40px;
+}
+
+.product-item .product-allow{
+	color: #ebebeb;
+	position: relative;
+	bottom: 120px;
+	font-size: 20px;
+ 	margin-left: 40px;
+}
+
+.product-item2 .product-allow{
+	color: #ebebeb;
+	position: relative;
+	bottom: 120px;
+	font-size: 20px;
+ 	margin-left: 40px;
+}
+
+.pc-logo img{
+	margin-top: 280px;
+	float: right;
+	margin-bottom: -18px;
+	
+}
+
+.footer{
+ 
+  height: 320px;
+  width: 100%;
+  float: left;
+  clear: left;
+  background-color: #fcdcd5;
+  }
+
+h3{
+  font-size:26px;
+  color: #e99999;
+  line-height:5px;
+  margin-left: 160px;
+  margin-top: 60px;
+  letter-spacing: 4px;
+}
+  
+h4{
+  font-size: 12px;
+  margin-left: 190px;
+  margin-top: 70px;
+}
+
+h4 p1{
+	font-size: 16px;
+	color: #646464;
+	
+}
+
+h4 p2{
+	font-size: 16px;
+	color: #646464;
+}
+
+h4 p3{
+	font-size: 12px;
+	color: #888888;
+}
+
+h4 a{
+	line-height: 26px;
+	text-decoration: none;
+	color: #888888;
+}
+
+.first{
+	float: left;
+}
+
+.second{
+	float: left;
+	margin-left: 120px;
+}
+
+.third{
+	float: left;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+
+.footer img{ 
+  margin-right: 100px;
+  margin-top: 180px;
+  float: right;
+ }
+
+</style>
+</head>
+
+
+<body>
+	<div class="navigation">
+	<a href="file:///C:/Users/Yunju/Desktop/14/personal%20color.html#">
+	<img class="logoimg" src="images/logo2.png"  width="80PX"  alt="logo"></a>
+	<ul class="menu">
+		<li><a href="home.html"> Home </a></li>
+		<li><a href="about.html"> About </a></li>
+        <li><a href="test.html"> Self Test </a></li>
+	</ul></div>
+ </div>
+
+
+
+ 
+ <div class="back-img"> 
+ 	<img src="images/hero_header.png" width="100%"  height="500px;"></div>
+
+<div class="box">
+   <div class="title">What's your color?</div>  
+   <div class="line">
+   	  <img src="images/line.png" >
+   	 </div>
+   <div class="sub-title">Personal Color<br>Self Test</div>
+   <div class="button">
+   	<a href="test.html"><b>Test now</b> <img src="images/allow.png" width="22px" height="14px"></a>
+   </div>
+</div>
+
+<div class="box-right-text">Color that matches the color of the individual's body. 
+<br>It is effective for image management that makes users 
+<br>look lively and energetic. Therefore, we will find your 
+<br>personal color to make you stand out.</div>
+
+
+
+
+  <div class="main-container">
+
+  	<h2><br><br><br><br><br><br><img src="images/line.png"><br><p>Category</p></h2>
+  	
+  	<div class="product-container">
+  		<a class="product-item" a href="makeup.html">
+  			<img src="images/category1.png" width="321px" height="500px" alt="Makeup">
+  			<p class="product-name"><b>Makeup</b></p>
+  			<p class="product-allow"><br><br>→</p>
+  		</a>
+
+  		<a class="product-item2" a href="clothes.html">
+  			<img src="images/category2.png"alt="Clothes">
+  			<p class="product-name"><b>clothes</b></p>
+  			<p class="product-allow"><br><br>→</p>
+  		</a>
+
+  		<a class="product-item" a href="hair.html">
+  			<img src="images/category3.png" alt="Hair">
+  			<p class="product-name"><b>Hair</b></p>
+  			<p class="product-allow"><br><br>→</p>
+  		</a>
+      </div>
+  </div>
+
+
+  <div class="pc-logo">
+  	 <img src="images/personalcolor.png">
+  </div>
+
+
+  <div class="footer">
+      <h3>Contact </h3>
+      <div class="footer-img">
+      	<img src="images/logo2.png" width="100px"></div>
+      <h4>
+      	  <div class=first>
+      	    <p1><b>Category</b></p1>
+      		<a href="test.html"><br><br>Self Test</a>
+            <a href="makeup.html"><br>Makeup</a>
+            <a href="clothes.html"><br>Clothes</a>
+            <a href="hair.html"><br>Hair</a>
+          </div>
+          
+          <div class="second">
+           <p2><b>Need Help?</b></p2>
+      		<a href="file:///C:/Users/Yunju/Desktop/14/personal%20color.html"><br><br>Contact us</a>
+            <a href="https://www.facebook.com/profile.php?id=100009419748708"><br>→ Facebook</a>
+            <a href="https://www.instagram.com/y_ellow_64/"><br>→ Instargram</a>
+            
+          </div>
+          
+          <div class=third>
+           <p3>한국산업기술대학교<br>미디어디자인공학과<br>2020194035<br>황윤주
+           <br><br>Address. 경기도 시흥시 산기대학로 237<br>Tel. 010-6496-2001</p3>
+          </div>
+      </h4>
+    </div>
+</body>
+</html>
